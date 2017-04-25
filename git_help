@@ -1,2 +1,6 @@
 git checkout alex
-git branch -a (show branches)
+git branch -r (show remote branches) These are like a cache of the state of branches in the remote repository that are updated when you do git fetch
+
+when you want to see the branches existing in the gitHub do also git branch -a
+
+origin/master is different from master branch.The latter represents your local repository whereas the origin/master is like a pointer on what happens in github repository
