@@ -4,3 +4,6 @@ git branch -r (show remote branches) These are like a cache of the state of bran
 when you want to see the branches existing in the gitHub do also git branch -a
 
 origin/master is different from master branch.The latter represents your local repository whereas the origin/master is like a pointer on what happens in github repository
+
+
+git-ls-tree - List the contents of a tree object
