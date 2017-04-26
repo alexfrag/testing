@@ -24,3 +24,4 @@ Shows the changes between the index and the HEAD (which is the last commit on th
 
 
 new line
+new line2
