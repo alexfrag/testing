@@ -22,5 +22,6 @@ Shows the changes between the working directory and the index(staged area). This
 git diff --cached
 Shows the changes between the index and the HEAD (which is the last commit on this branch). This shows what has been added to the index and staged for a commit.
 
+git diff HEAD
 
-new line
+Shows all the changes between the working directory and HEAD (which includes changes in the index). This shows all the changes since the last commit, whether or not they have been staged for commit or not.
