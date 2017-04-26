@@ -1,9 +1,15 @@
 git checkout alex
 git branch -r (show remote branches) These are like a cache of the state of branches in the remote repository that are updated when you do git fetch
 
-when you want to see the branches existing in the gitHub do also git branch -a
+when you want to see the branches existing in the the local repository also, run git branch -a. Here, master is a branch in the local repository.
 
 origin/master is different from master branch.The latter represents your local repository whereas the origin/master is like a pointer on what happens in github repository
 
 
 git-ls-tree - List the contents of a tree object
+
+git fetch origin ->The git fetch updates your so-called "remote-tracking branches".In this case origin represent the "clone" address
+
+git diff master origin/master
+you need to fetch the remote depository first using git fetch
+origin/master and remotes/origin/master are essentially the same thing
