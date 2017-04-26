@@ -13,3 +13,5 @@ git fetch origin ->The git fetch updates your so-called "remote-tracking branche
 git diff master origin/master
 you need to fetch the remote depository first using git fetch
 origin/master and remotes/origin/master are essentially the same thing
+
+Then you can merge the diferrences using git merge origin/master, assuming master is your current branch.
