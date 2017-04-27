@@ -24,3 +24,9 @@ Shows the changes between the index and the HEAD (which is the last commit on th
 
 git diff HEAD
 Shows all the changes between the working directory and HEAD (which includes changes in the index). This shows all the changes since the last commit, whether or not they have been staged for commit or not.
+
+
+git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
